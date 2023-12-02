@@ -1,0 +1,30 @@
+﻿@model List<BLL.Produit>
+
+<div>
+    <h1>La liste des produits</h1>
+    <table class="table table-bordered">
+       <thead>
+           <tr>
+              
+                <th>Désignation</th>
+                <th>PrixHT</th>
+            
+                <th>Detail</th>
+           </tr>
+       </thead> 
+       <tbody>
+            @foreach (var produit in Model)
+            {
+                <tr>
+                   
+                    
+                    <td>@produit.Désignation</td>
+                    <td>@produit.PrixHT</td>
+                    
+                    <td><a asp-controller="Produit" asp-action="Detail" asp-route-id="@produit.Id">Detail</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+   
+</div>

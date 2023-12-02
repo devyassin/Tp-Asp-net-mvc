@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controle", "Controle\Controle.csproj", "{05A524F0-4D68-4FBD-9B0B-723BCF980CD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{7A40AF6B-1545-464F-A9F2-2C22E339364A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05A524F0-4D68-4FBD-9B0B-723BCF980CD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A524F0-4D68-4FBD-9B0B-723BCF980CD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A524F0-4D68-4FBD-9B0B-723BCF980CD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A524F0-4D68-4FBD-9B0B-723BCF980CD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A40AF6B-1545-464F-A9F2-2C22E339364A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A40AF6B-1545-464F-A9F2-2C22E339364A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A40AF6B-1545-464F-A9F2-2C22E339364A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A40AF6B-1545-464F-A9F2-2C22E339364A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6933BA89-DAFB-4853-90CE-32ED2A28FD00}
+	EndGlobalSection
+EndGlobal

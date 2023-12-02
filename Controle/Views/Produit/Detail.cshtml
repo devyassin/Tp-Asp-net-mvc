@@ -1,0 +1,20 @@
+﻿@model BLL.Produit
+
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <h1 class="card-title">@Model.Désignation</h1>
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">@Model.Catégorie</h5>
+                <p class="card-text">Dispo : @Model.EstDispo </p>
+                <p class="card-text">Réference :#@Model.Référence </p>
+                <p class="card-text"><small class="text-body-secondary">@Model.PrixHT Dh</small></p>
+            </div>
+        </div>
+    </div>
+    <a asp-controller="Produit" asp-action="Index" class="btn btn-danger">
+        Retourner a la page Produits
+    </a>
+</div>
